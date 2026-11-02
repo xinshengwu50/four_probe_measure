@@ -1,0 +1,84 @@
+repo 修改参数.x0.val,584
+repo 修改参数.x1.val,588
+repo 修改参数.x2.val,592
+repo 修改参数.x4.val,1000
+repo 修改参数.x5.val,1004
+repo 修改参数.x6.val,1008
+repo 修改参数.x7.val,1012
+repo 修改参数.x3.val,1016
+sys1=0
+if(修改参数.x4.val!=2&&修改参数.x4.val!=3&&修改参数.x4.val!=4)
+{
+  sys1=1
+}
+if(修改参数.x5.val<1||修改参数.x5.val>3)
+{
+  sys1=2
+}
+if(修改参数.x3.val<0||修改参数.x3.val>4)
+{
+  sys1=3
+}
+if(修改参数.x7.val<0||修改参数.x7.val>2)
+{
+  sys1=4
+}
+if(修改参数.x0.val<0||修改参数.x0.val>1)
+{
+  sys1=5
+}
+if(修改参数.x1.val<=0||修改参数.x2.val<=0)
+{
+  sys1=6
+}
+if(修改参数.x5.val==1)
+{
+  if(修改参数.x6.val<1||修改参数.x6.val>25)
+  {
+    sys1=7
+  }
+}
+if(sys1==0)
+{
+  // 先镜像参数，再发送唯一的42字节START帧；不读旧地址596。
+  page0.x7.val=修改参数.x0.val
+  page0.x6.val=修改参数.x1.val
+  page0.x4.val=修改参数.x2.val
+  // x85仅供旧数据页导航；发送帧x4仍保持真实材料编号。
+  if(修改参数.x7.val==2)
+  {
+    page1.x85.val=1
+  }else if(修改参数.x4.val==4)
+  {
+    page1.x85.val=2 // GaN复用AlGaN三代页；实际发送x4仍为4
+  }else
+  {
+    page1.x85.val=修改参数.x4.val
+  }
+  // page0.x0是电流显示，不写入0..4量程模式编号，由PS选档后填写。
+  page0.x0.val=0
+  printh AA BB
+  prints 修改参数.x0.val,0
+  printh CC
+  prints 修改参数.x1.val,0
+  printh DD
+  prints 修改参数.x2.val,0
+  printh EE
+  prints 修改参数.x3.val,0
+  printh FF
+  prints 修改参数.x4.val,0
+  printh 66
+  prints 修改参数.x5.val,0
+  printh 77
+  prints 修改参数.x6.val,0
+  printh 88
+  prints 修改参数.x7.val,0
+  printh AA
+  page 正在测量
+}else
+{
+  prints "PARAM_REJECT code=",0
+  prints sys1,0
+  printh 0D 0A
+  page 修改参数
+}

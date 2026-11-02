@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-02T18:53:45.372309+08:00",
+  "build_inputs_digest": "e3b86fb9d6cd9830a7b49c597a912c786a6ef7cb6612792b9bca552e30bf9622",
+  "build_inputs": [
+    {
+      "path": "build/scripts/build_inputs.py",
+      "sha256": "7bf4ea1442a6554c341e43915083033c05075cb483b6f9944217e1c3b4580c7d"
+    },
+    {
+      "path": "build/scripts/build_overlay.tcl",
+      "sha256": "96665a1b166abc6a75aff48af37493e561599d7e6e9e2aae24188e34245f35a0"
+    },
+    {
+      "path": "build/scripts/create_project.tcl",
+      "sha256": "daa69f5826be14cfa15f926356c081c5704ba91791bbd47dabf86b7ad591860c"
+    },
+    {
+      "path": "build/scripts/record_build_provenance.py",
+      "sha256": "9b382f2c75411ce1275c68e18bd3c3663799e036a00d6c55ff90a3e48edcda28"
+    },
+    {
+      "path": "src/ip_repo/all_final/component.xml",
+      "sha256": "f4094f4b9ae20dcdcd25aa496e69fe7774db3e7b468737cd5b2ec2a8db25084e"
+    },
+    {
+      "path": "src/ip_repo/all_final/src/ads8681_capture.v",
+      "sha256": "b1c528725ce9ef9be88747fa6401a65bac8e13e2d82633fe261fa5bcfbc1b3ea"
+    },
+    {
+      "path": "src/ip_repo/all_final/src/all.xdc",
+      "sha256": "ec99e8703dfc870f2610dd3bed2d4f8672754e5431ea301364781d7261e55cc5"
+    },
+    {
+      "path": "src/ip_repo/all_final/src/all_final.v",
+      "sha256": "1b1ec5e1e96e2d42e6d9d7b51b509703672781c6a7503c2a547e64a1cc7aae2c"
+    },
+    {
+      "path": "src/ip_repo/all_final/src/analog_seq.v",
+      "sha256": "37bcd6e05bfce167370c49de35cc847f74abe77d98c2ee53608022762bf916c7"
+    },
+    {
+      "path": "src/ip_repo/all_final/src/axis_r.v",
+      "sha256": "496a259700f2e29c4bc8ab92fa9f5fa0ec78ee34221790c8aab272960ff0f735"
+    },
+    {
+      "path": "src/ip_repo/all_final/src/axis_x.v",
+      "sha256": "b472612485bc08cc429a9915ab5973b6c13240a7e4533e5dc06b2e2ad3a6ae14"
+    },
+    {
+      "path": "src/ip_repo/all_final/src/axis_z.v",
+      "sha256": "fccc9c5ce32568b4fb2eaf8a4d464100322f8758509f0a02a7eba8a9fe27e866"
+    },
+    {
+      "path": "src/ip_repo/all_final/src/dac8562_serializer.v",
+      "sha256": "41ccebf9c981c34721830863d3c88ca7f3959cd2ed03173102d7a1a818625751"
+    },
+    {
+      "path": "src/ip_repo/all_final/src/meas_calc.v",
+      "sha256": "4784646031f7dd2f91bb0eb4fe6278fba49438865e8889d0520e165d3a6e603a"
+    },
+    {
+      "path": "src/ip_repo/all_final/src/meas_chain.v",
+      "sha256": "6d133eb846a03bbfb0daa25e8f1c8200d99f56f79467bb826989b7d3ea4a4b90"
+    },
+    {
+      "path": "src/ip_repo/all_final/src/motion_sync.v",
+      "sha256": "50d49518be3a63149f22abd9c4854962b34fff582ae798879543cb3f845a886d"
+    },
+    {
+      "path": "src/ip_repo/all_final/src/session_guard.v",
+      "sha256": "203027dd6fd2ac75b90de736a111714c6551ee61c4f18385fff0ff08160a49c5"
+    },
+    {
+      "path": "src/ip_repo/all_final/src/stats_window.v",
+      "sha256": "d829632b3a13f7f25dffe7f95bfba7313553d08bb1e8bfe50bde055b5ea190cd"
+    },
+    {
+      "path": "src/ip_repo/all_final/xgui/all_final_v1_0.tcl",
+      "sha256": "425cc1888c074c9d6718de1a7d63b664cf02282e376c0430a4e20c37636d6eed"
+    },
+    {
+      "path": "src/project/hw/constraints/all.xdc",
+      "sha256": "8de0960400f8c7ccac4c7dc8e4fe8e784e5f6ed469a893d6138b3287d9953777"
+    },
+    {
+      "path": "src/project/hw/rtl/adc/ads8681_capture.v",
+      "sha256": "b1c528725ce9ef9be88747fa6401a65bac8e13e2d82633fe261fa5bcfbc1b3ea"
+    },
+    {
+      "path": "src/project/hw/rtl/all/all_final.v",
+      "sha256": "1b1ec5e1e96e2d42e6d9d7b51b509703672781c6a7503c2a547e64a1cc7aae2c"
+    },
+    {
+      "path": "src/project/hw/rtl/analog/analog_seq.v",
+      "sha256": "37bcd6e05bfce167370c49de35cc847f74abe77d98c2ee53608022762bf916c7"
+    },
+    {
+      "path": "src/project/hw/rtl/analog/dac8562_serializer.v",
+      "sha256": "41ccebf9c981c34721830863d3c88ca7f3959cd2ed03173102d7a1a818625751"
+    },
+    {
+      "path": "src/project/hw/rtl/common/motion_sync.v",
+      "sha256": "50d49518be3a63149f22abd9c4854962b34fff582ae798879543cb3f845a886d"
+    },
+    {
+      "path": "src/project/hw/rtl/common/session_guard.v",
+      "sha256": "203027dd6fd2ac75b90de736a111714c6551ee61c4f18385fff0ff08160a49c5"
+    },
+    {
+      "path": "src/project/hw/rtl/fp_dsp/fp_dsp.v",
+      "sha256": "ed0cd4b048ffd7584a129fa31e2f4120f565887a5328bac8eccae64e49ef25ad"
+    },
+    {
+      "path": "src/project/hw/rtl/fp_dsp/fp_dsp_sources.f",
+      "sha256": "436cc1ef713b6598f2bc7b59ff776945537d0b3f8e780da3b367769d685d01e9"
+    },
+    {
+      "path": "src/project/hw/rtl/fp_dsp/fpd_autorange.v",
+      "sha256": "44fce384e8a22a8fb838b5f9644559e0c4c91e648e2fb5f26d5d0fc77b46a551"
+    },
+    {
+      "path": "src/project/hw/rtl/fp_dsp/fpd_axil_master.v",
+      "sha256": "1527b638b08c924305e167cb4565f6e4e613c1e21c04841179c437762cc3c3db"
+    },
+    {
+      "path": "src/project/hw/rtl/fp_dsp/fpd_div.v",
+      "sha256": "b7b274b6d466f19e170c9e30ad4f2b9fdfe15a57cc7e3e7b5a379335f7698efe"
+    },
+    {
+      "path": "src/project/hw/rtl/fp_dsp/fpd_mul.v",
+      "sha256": "5d24e45e3256ea523a32a704d8d78559cc7489bb04162be48807f178ad791f0b"
+    },
+    {
+      "path": "src/project/hw/rtl/fp_dsp/fpd_spi_sniffer.v",
+      "sha256": "016e23a306082f3eb7a5f3b2d5283980984a6a07ef340c8373c7a5123db3cb0b"
+    },
+    {
+      "path": "src/project/hw/rtl/measurement/meas_calc.v",
+      "sha256": "4784646031f7dd2f91bb0eb4fe6278fba49438865e8889d0520e165d3a6e603a"
+    },
+    {
+      "path": "src/project/hw/rtl/measurement/meas_chain.v",
+      "sha256": "6d133eb846a03bbfb0daa25e8f1c8200d99f56f79467bb826989b7d3ea4a4b90"
+    },
+    {
+      "path": "src/project/hw/rtl/measurement/stats_window.v",
+      "sha256": "d829632b3a13f7f25dffe7f95bfba7313553d08bb1e8bfe50bde055b5ea190cd"
+    },
+    {
+      "path": "src/project/hw/rtl/motion/axis_r.v",
+      "sha256": "496a259700f2e29c4bc8ab92fa9f5fa0ec78ee34221790c8aab272960ff0f735"
+    },
+    {
+      "path": "src/project/hw/rtl/motion/axis_x.v",
+      "sha256": "b472612485bc08cc429a9915ab5973b6c13240a7e4533e5dc06b2e2ad3a6ae14"
+    },
+    {
+      "path": "src/project/hw/rtl/motion/axis_z.v",
+      "sha256": "fccc9c5ce32568b4fb2eaf8a4d464100322f8758509f0a02a7eba8a9fe27e866"
+    },
+    {
+      "path": "src/project/hw/rtl/rtl_sources.f",
+      "sha256": "5257e55a5cace1010f8764a3a7f0e66677684d34166b941e944c29dcf6d884be"
+    },
+    {
+      "path": "src/project/scripts/add_fp_dsp.tcl",
+      "sha256": "286c582939cac4e7546f48e3eac202dc9423879f703d2bee3ca34dff1e2e2c61"
+    },
+    {
+      "path": "src/project/scripts/recreate_bd.tcl",
+      "sha256": "cdfbdf7518347fafcb3b16a758ac7ff8fcf982f722700b26e19126cb69cc2bf0"
+    }
+  ],
+  "bit": {
+    "path": "build/rebuilt/all_design.bit",
+    "sha256": "c7ff685c60e17bbf1cb695e95b3622c393575046d9ee82ee0bde20b9d26473f0"
+  },
+  "hwh": {
+    "path": "build/rebuilt/all_design.hwh",
+    "sha256": "52a2b3c540bd6a1ae60e8d43783c90ffb6edd33ea1e6401563119fcd67ac3da7"
+  },
+  "vivado_version": "2026.1",
+  "part": "xc7z020clg400-1",
+  "note": "Provenance records the inputs and output pair; it does not replace board acceptance."
+}
