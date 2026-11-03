@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "evidence_kind": "MOCK",
+  "hardware_verified": false,
+  "board_evidence": null,
+  "ip": "adc_frame_model",
+  "python": "3.14.0a5",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "correctness": {
+    "passed": true,
+    "count": 10,
+    "failed_indices": [],
+    "max_abs_error": 0.0,
+    "atol": 1e-12,
+    "rtol": 0.0
+  },
+  "metrics": {},
+  "note": "Evidence label is supplied by caller; BOARD requires preserved actual board output.",
+  "record_analysis": {
+    "passed": true,
+    "evidence_kind": "INPUT_RECORD_ANALYSIS",
+    "hardware_verified": false,
+    "quality_flags": [],
+    "total_records": 12,
+    "valid_count": 10,
+    "valid_ratio": 1.0,
+    "saturation_count": 0,
+    "saturation_ratio": 0.0,
+    "missing_sequences": 0,
+    "rejected": {
+      "duplicate": 0,
+      "out_of_order": 0,
+      "no_sequence": 0,
+      "bad_frame": 0,
+      "bad_status": 0,
+      "bad_channel": 0,
+      "discarded": 2
+    },
+    "mean_signal_v": 0.5,
+    "median_signal_v": 0.5,
+    "std_signal_v": 0.0,
+    "minimum_signal_v": 0.5,
+    "maximum_signal_v": 0.5,
+    "samples": [
+      {
+        "sequence": 2,
+        "frame": 2000,
+        "raw_code": 2000,
+        "signed_code": 2000,
+        "adc_v": 2.0,
+        "signal_v": 0.5,
+        "channel": null,
+        "channel_ok": true,
+        "saturated": false
+      },
+      {
+        "sequence": 3,
+        "frame": 2000,
+        "raw_code": 2000,
+        "signed_code": 2000,
+        "adc_v": 2.0,
+        "signal_v": 0.5,
+        "channel": null,
+        "channel_ok": true,
+        "saturated": false
+      },
+      {
+        "sequence": 4,
+        "frame": 2000,
+        "raw_code": 2000,
+        "signed_code": 2000,
+        "adc_v": 2.0,
+        "signal_v": 0.5,
+        "channel": null,
+        "channel_ok": true,
+        "saturated": false
+      },
+      {
+        "sequence": 5,
+        "frame": 2000,
+        "raw_code": 2000,
+        "signed_code": 2000,
+        "adc_v": 2.0,
+        "signal_v": 0.5,
+        "channel": null,
+        "channel_ok": true,
+        "saturated": false
+      },
+      {
+        "sequence": 6,
+        "frame": 2000,
+        "raw_code": 2000,
+        "signed_code": 2000,
+        "adc_v": 2.0,
+        "signal_v": 0.5,
+        "channel": null,
+        "channel_ok": true,
+        "saturated": false
+      },
+      {
+        "sequence": 7,
+        "frame": 2000,
+        "raw_code": 2000,
+        "signed_code": 2000,
+        "adc_v": 2.0,
+        "signal_v": 0.5,
+        "channel": null,
+        "channel_ok": true,
+        "saturated": false
+      },
+      {
+        "sequence": 8,
+        "frame": 2000,
+        "raw_code": 2000,
+        "signed_code": 2000,
+        "adc_v": 2.0,
+        "signal_v": 0.5,
+        "channel": null,
+        "channel_ok": true,
+        "saturated": false
+      },
+      {
+        "sequence": 9,
+        "frame": 2000,
+        "raw_code": 2000,
+        "signed_code": 2000,
+        "adc_v": 2.0,
+        "signal_v": 0.5,
+        "channel": null,
+        "channel_ok": true,
+        "saturated": false
+      },
+      {
+        "sequence": 10,
+        "frame": 2000,
+        "raw_code": 2000,
+        "signed_code": 2000,
+        "adc_v": 2.0,
+        "signal_v": 0.5,
+        "channel": null,
+        "channel_ok": true,
+        "saturated": false
+      },
+      {
+        "sequence": 11,
+        "frame": 2000,
+        "raw_code": 2000,
+        "signed_code": 2000,
+        "adc_v": 2.0,
+        "signal_v": 0.5,
+        "channel": null,
+        "channel_ok": true,
+        "saturated": false
+      }
+    ]
+  },
+  "source": "SYNTHETIC_RECORDS",
+  "config": {
+    "adc": {
+      "frame_bits": 16,
+      "code_bits": 12,
+      "code_lsb": 0,
+      "coding": "straight",
+      "input_min_v": 0,
+      "input_max_v": 4.096,
+      "bias_v": 1,
+      "gain": 2,
+      "sequence_bits": 32
+    },
+    "discard_first": 2,
+    "required_samples": 8,
+    "golden_signal_v": 0.5,
+    "source": "SYNTHETIC"
+  }
+}

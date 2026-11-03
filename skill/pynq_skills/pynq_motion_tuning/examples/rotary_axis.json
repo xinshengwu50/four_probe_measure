@@ -1,0 +1,29 @@
+{
+  "axis": {
+    "axis": "example_rotary",
+    "unit": "deg",
+    "full_steps_per_rev": 200,
+    "microsteps": 16,
+    "gear_ratio": 1,
+    "units_per_output_rev": 360,
+    "clock_hz": 50000000,
+    "hard_min_steps": 0,
+    "hard_max_steps": 3200,
+    "soft_min": 0,
+    "soft_max": 360,
+    "max_speed": 180,
+    "min_pulse_cycles": 2
+  },
+  "move": {
+    "current_steps": 0,
+    "target": 90,
+    "speed": 30,
+    "end_speed": 5,
+    "decel_window_steps": 100,
+    "segments": 8,
+    "homed": true,
+    "trusted": true
+  },
+  "source": "SIMULATED_POSITION_UNCALIBRATED_EXAMPLE",
+  "golden_target_steps": 800
+}

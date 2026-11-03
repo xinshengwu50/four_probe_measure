@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "evidence_kind": "MOCK",
+  "hardware_verified": false,
+  "board_evidence": null,
+  "ip": "processor_0",
+  "python": "3.14.0a5",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "correctness": {
+    "passed": true,
+    "count": 4,
+    "failed_indices": [],
+    "max_abs_error": 0.0,
+    "atol": 0.0,
+    "rtol": 0.0
+  },
+  "metrics": {
+    "host_compare_ns": 23800,
+    "hardware_latency_ns": null,
+    "hardware_throughput": null,
+    "vivado": {
+      "wns_ns": null,
+      "whs_ns": null,
+      "lut": null,
+      "ff": null,
+      "dsp": null,
+      "bram": null
+    }
+  },
+  "note": "Evidence label is supplied by caller; BOARD requires preserved actual board output.",
+  "example": "vector_sum",
+  "contract_sha256": "73d11ca02dd9f04386b4e07949e393a39f49b7d9f6fbc71189ba4469465c2f66",
+  "fixture_sha256": "2537bd698dadfbb407435689116730cc76de437b4c2526c2ed2c1bd49db13d17"
+}

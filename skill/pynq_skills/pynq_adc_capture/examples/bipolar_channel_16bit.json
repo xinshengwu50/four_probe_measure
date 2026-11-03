@@ -1,0 +1,17 @@
+{
+  "adc": {
+    "frame_bits": 24,
+    "code_bits": 16,
+    "code_lsb": 0,
+    "coding": "twos",
+    "input_min_v": -2.5,
+    "input_max_v": 2.5,
+    "channel_lsb": 16,
+    "channel_bits": 4,
+    "expected_channel": 2
+  },
+  "discard_first": 2,
+  "required_samples": 8,
+  "golden_signal_v": 1.25,
+  "source": "SYNTHETIC"
+}
