@@ -1,0 +1,331 @@
+COMMAND ['C:\\Users\\wxs\\.dsh\\dsh-runtimes\\dsh-primary-runtime\\dependencies\\python\\python.exe', '-B', '-m', 'unittest', 'discover', '-s', 'C:\\Users\\wxs\\Desktop\\four_probe_measure_o\\board\\pynq', '-p', 'test_*.py', '-v']
+test_last_valid_point_refreshes_without_complete_or_scan_return (test_early_page0.Tests.test_last_valid_point_refreshes_without_complete_or_scan_return) ... ok
+test_not_last_and_invalid_last_do_not_refresh_report (test_early_page0.Tests.test_not_last_and_invalid_last_do_not_refresh_report) ... ok
+test_100ma_locked (test_hmi_frame42.Tests.test_100ma_locked) ... ok
+test_all_modes (test_hmi_frame42.Tests.test_all_modes) ... ok
+test_aln_no_motion_saved (test_hmi_frame42.Tests.test_aln_no_motion_saved) ... ok
+test_back_to_back (test_hmi_frame42.Tests.test_back_to_back) ... ok
+test_crc_marker_corruption_rejected (test_hmi_frame42.Tests.test_crc_marker_corruption_rejected) ... ok
+test_every_split (test_hmi_frame42.Tests.test_every_split) ... ok
+test_factory_structure_callback (test_hmi_frame42.Tests.test_factory_structure_callback) ... ok
+test_gan_parse (test_hmi_frame42.Tests.test_gan_parse) ... ok
+test_history_metadata_roundtrip (test_hmi_frame42.Tests.test_history_metadata_roundtrip) ... ok
+test_invalid (test_hmi_frame42.Tests.test_invalid) ... ok
+test_legacy (test_hmi_frame42.Tests.test_legacy) ... ok
+test_length_and_split (test_hmi_frame42.Tests.test_length_and_split) ... ok
+test_manual_100ma_requires_both_gates (test_hmi_frame42.Tests.test_manual_100ma_requires_both_gates) ... ok
+test_manual_factory (test_hmi_frame42.Tests.test_manual_factory) ... ok
+test_mixed_frames (test_hmi_frame42.Tests.test_mixed_frames) ... ok
+test_rst (test_hmi_frame42.Tests.test_rst) ... ok
+test_structure_model (test_hmi_frame42.Tests.test_structure_model) ... ok
+test_abort (test_hmi_range04.Tests.test_abort) ... ok
+test_actual_switches_only (test_hmi_range04.Tests.test_actual_switches_only) ... [RANGE04] 实际量程配置完成 R0 -> p[4].p0.pic=68
+[RANGE04] 实际量程配置完成 R1 -> p[4].p1.pic=69
+[RANGE04] 实际量程配置完成 R2 -> p[4].p2.pic=70
+ok
+test_all_four_maps (test_hmi_range04.Tests.test_all_four_maps) ... [RANGE04] 选档完成 R0；第5页仅此档亮起（不是整场测量完成）
+[RANGE04] 选档完成 R1；第5页仅此档亮起（不是整场测量完成）
+[RANGE04] 选档完成 R2；第5页仅此档亮起（不是整场测量完成）
+[RANGE04] 选档完成 R3；第5页仅此档亮起（不是整场测量完成）
+ok
+test_base_navigation_suppressed (test_hmi_range04.Tests.test_base_navigation_suppressed) ... [RANGE04] 选档完成 R1；第5页仅此档亮起（不是整场测量完成）
+ok
+test_begin (test_hmi_range04.Tests.test_begin) ... ok
+test_clear_old_done_before_page4 (test_hmi_range04.Tests.test_clear_old_done_before_page4) ... ok
+test_current_off_ignored (test_hmi_range04.Tests.test_current_off_ignored) ... ok
+test_failed_hardware (test_hmi_range04.Tests.test_failed_hardware) ... ok
+test_final_config_stays_page5 (test_hmi_range04.Tests.test_final_config_stays_page5) ... [RANGE04] 实际量程配置完成 R2 -> p[4].p2.pic=70
+[RANGE04] 选档完成 R1；第5页仅此档亮起（不是整场测量完成）
+ok
+test_no_late_page_local_corruption (test_hmi_range04.Tests.test_no_late_page_local_corruption) ... [RANGE04] 选档完成 R1；第5页仅此档亮起（不是整场测量完成）
+ok
+test_pl_abort_precedes_lights (test_hmi_range04.Tests.test_pl_abort_precedes_lights) ... ok
+test_pl_sample_label_events (test_hmi_range04.Tests.test_pl_sample_label_events) ... [RANGE04] 实际量程配置完成 R0 -> p[4].p0.pic=68
+[RANGE04] 实际量程配置完成 R1 -> p[4].p1.pic=69
+[RANGE04] 实际量程配置完成 R2 -> p[4].p2.pic=70
+ok
+test_polarity_no_duplicate (test_hmi_range04.Tests.test_polarity_no_duplicate) ... [RANGE04] 实际量程配置完成 R1 -> p[4].p1.pic=69
+ok
+test_r3_never_touches_hardware (test_hmi_range04.Tests.test_r3_never_touches_hardware) ... ok
+test_range_validation (test_hmi_range04.Tests.test_range_validation) ... ok
+test_real_configuration_params_unchanged (test_hmi_range04.Tests.test_real_configuration_params_unchanged) ... [RANGE04] 实际量程配置完成 R2 -> p[4].p2.pic=70
+ok
+test_selected (test_hmi_range04.Tests.test_selected) ... [RANGE04] 实际量程配置完成 R2 -> p[4].p2.pic=70
+[RANGE04] 选档完成 R1；第5页仅此档亮起（不是整场测量完成）
+ok
+test_abort_check_prevents_further_uart (test_hmi_real_heatmap.HeatTests.test_abort_check_prevents_further_uart) ... ok
+test_complete_layout_and_limits (test_hmi_real_heatmap.HeatTests.test_complete_layout_and_limits) ... ok
+test_missing_invalid_zero_uniform_and_rounding (test_hmi_real_heatmap.HeatTests.test_missing_invalid_zero_uniform_and_rounding) ... ok
+test_recolors_when_minmax_changes_and_skips_duplicate (test_hmi_real_heatmap.HeatTests.test_recolors_when_minmax_changes_and_skips_duplicate) ... ok
+test_actual_core_z_r_home_and_rx_preserved (test_hmi_recovery.RecoveryTests.test_actual_core_z_r_home_and_rx_preserved) ... ok
+test_bad_rx_route_or_fatal_error_refuses (test_hmi_recovery.RecoveryTests.test_bad_rx_route_or_fatal_error_refuses) ... ok
+test_constructor_pure_and_measurement_apis_disabled (test_hmi_recovery.RecoveryTests.test_constructor_pure_and_measurement_apis_disabled) ... ok
+test_failed_r_home_re_latches_without_x_or_retries (test_hmi_recovery.RecoveryTests.test_failed_r_home_re_latches_without_x_or_retries) ... ok
+test_keyboard_interrupt_during_home_holds_fault (test_hmi_recovery.RecoveryTests.test_keyboard_interrupt_during_home_holds_fault) ... ok
+test_new_rst_during_homing_is_not_cleared (test_hmi_recovery.RecoveryTests.test_new_rst_during_homing_is_not_cleared) ... ok
+test_new_rst_while_stopping_old_workers_prevents_clear (test_hmi_recovery.RecoveryTests.test_new_rst_while_stopping_old_workers_prevents_clear) ... ok
+test_old_matching_system_pl_owner_released_even_if_global_is_none (test_hmi_recovery.RecoveryTests.test_old_matching_system_pl_owner_released_even_if_global_is_none) ... ok
+test_old_rx_stopped_by_failed_cell_is_restarted (test_hmi_recovery.RecoveryTests.test_old_rx_stopped_by_failed_cell_is_restarted) ... ok
+test_partial_rst_refuses_clear_without_discarding_parser (test_hmi_recovery.RecoveryTests.test_partial_rst_refuses_clear_without_discarding_parser) ... ok
+test_rx_loss_during_home_aborts_and_latches (test_hmi_recovery.RecoveryTests.test_rx_loss_during_home_aborts_and_latches) ... ok
+test_stopping_rx_or_changed_route_is_not_treated_healthy (test_hmi_recovery.RecoveryTests.test_stopping_rx_or_changed_route_is_not_treated_healthy) ... ok
+test_stuck_heartbeat_refuses_clear_keeps_rx (test_hmi_recovery.RecoveryTests.test_stuck_heartbeat_refuses_clear_keeps_rx) ... ok
+test_tx_owned_or_fp_dsp_stuck_refuses_clear (test_hmi_recovery.RecoveryTests.test_tx_owned_or_fp_dsp_stuck_refuses_clear) ... ok
+test_unconfirmed_or_busy_or_current_on_never_clear (test_hmi_recovery.RecoveryTests.test_unconfirmed_or_busy_or_current_on_never_clear) ... ok
+test_wrong_overlay_is_read_only_refusal (test_hmi_recovery.RecoveryTests.test_wrong_overlay_is_read_only_refusal) ... ok
+test_recovery_notebook_does_not_use_measurement_factory (test_hmi_recovery.Regression.test_recovery_notebook_does_not_use_measurement_factory) ... ok
+test_silicon_end_to_end (test_multi_material_model.CalculateFourProbeTests.test_silicon_end_to_end) ... ok
+test_small_disk_keeps_legacy_table (test_multi_material_model.CalculateFourProbeTests.test_small_disk_keeps_legacy_table) ... ok
+test_thin_film_uses_closed_form_fd_and_unit_fw (test_multi_material_model.CalculateFourProbeTests.test_thin_film_uses_closed_form_fd_and_unit_fw) ... ok
+test_closed_form_reproduces_table_circle_column (test_multi_material_model.DiameterFactorTests.test_closed_form_reproduces_table_circle_column) ... ok
+test_project_wafer_value_and_infinite_limit (test_multi_material_model.DiameterFactorTests.test_project_wafer_value_and_infinite_limit) ... ok
+test_requires_probes_inside_disk (test_multi_material_model.DiameterFactorTests.test_requires_probes_inside_disk) ... ok
+test_invalid_alpha (test_multi_material_model.ThicknessFactorTests.test_invalid_alpha) ... ok
+test_limits_and_no_clamp (test_multi_material_model.ThicknessFactorTests.test_limits_and_no_clamp) ... ok
+test_matches_exact_slab_reference (test_multi_material_model.ThicknessFactorTests.test_matches_exact_slab_reference) ... ok
+test_monotonic_decreasing (test_multi_material_model.ThicknessFactorTests.test_monotonic_decreasing) ... ok
+test_project_wafer_value (test_multi_material_model.ThicknessFactorTests.test_project_wafer_value) ... ok
+test_hemt_run_without_current_is_stopped (test_open_current_loop.DiagnosisTests.test_hemt_run_without_current_is_stopped) ... ok
+test_no_verdict_without_a_current_span (test_open_current_loop.DiagnosisTests.test_no_verdict_without_a_current_span) ... ok
+test_normal_silicon_scans_pass (test_open_current_loop.DiagnosisTests.test_normal_silicon_scans_pass) ... ok
+test_old_open_loop_history_is_stopped (test_open_current_loop.DiagnosisTests.test_old_open_loop_history_is_stopped) ... ok
+test_ranges_without_samples_or_nan_are_ignored (test_open_current_loop.DiagnosisTests.test_ranges_without_samples_or_nan_are_ignored) ... ok
+test_voltage_that_follows_current_is_not_flagged (test_open_current_loop.DiagnosisTests.test_voltage_that_follows_current_is_not_flagged) ... ok
+test_first_point_stops_without_retry_or_measurement (test_open_current_loop.ScanIntegrationTests.test_first_point_stops_without_retry_or_measurement) ... ok
+test_normal_pilot_still_measures (test_open_current_loop.ScanIntegrationTests.test_normal_pilot_still_measures) ... ok
+test_stop_is_not_a_reset (test_open_current_loop.ScanIntegrationTests.test_stop_is_not_a_reset) ... ok
+test_blocked_writer_timeout_retains_handle_and_refuses_restart (test_safety.HeartbeatSafetyTests.test_blocked_writer_timeout_retains_handle_and_refuses_restart) ... ok
+test_cleanup_timeout_does_not_read_mmio_or_disarm_watchdog (test_safety.HeartbeatSafetyTests.test_cleanup_timeout_does_not_read_mmio_or_disarm_watchdog) ... ok
+test_actual_notebook_download_only_after_successful_stop (test_safety.OverlaySafetyTests.test_actual_notebook_download_only_after_successful_stop) ... ok
+test_actual_notebook_refuses_download_with_old_rx_alive (test_safety.OverlaySafetyTests.test_actual_notebook_refuses_download_with_old_rx_alive) ... ok
+test_rst_during_thread_stop_is_rechecked_before_download (test_safety.OverlaySafetyTests.test_rst_during_thread_stop_is_rechecked_before_download) ... ok
+test_binary_rst_prefix_is_not_a_stop_and_following_rst_is (test_safety.WireSafetyTests.test_binary_rst_prefix_is_not_a_stop_and_following_rst_is) ... ok
+test_every_truncated_start_preserves_following_rst (test_safety.WireSafetyTests.test_every_truncated_start_preserves_following_rst) ... ok
+test_expired_config_cannot_consume_a_fresh_start (test_safety.WireSafetyTests.test_expired_config_cannot_consume_a_fresh_start) ... ok
+test_idle_rx_poll_delivers_rst_held_behind_partial_start (test_safety.WireSafetyTests.test_idle_rx_poll_delivers_rst_held_behind_partial_start) ... ok
+test_invalid_history_header_cannot_hide_rst (test_safety.WireSafetyTests.test_invalid_history_header_cannot_hide_rst) ... ok
+test_partial_rst_survives_idle_timeout_and_parser_reset_keeps_latch (test_safety.WireSafetyTests.test_partial_rst_survives_idle_timeout_and_parser_reset_keeps_latch) ... ok
+test_valid_frames_all_splits_and_history_are_unchanged (test_safety.WireSafetyTests.test_valid_frames_all_splits_and_history_are_unchanged) ... ok
+test_native_voltage_screen_and_csv_have_no_display_multiplier (test_scan.ScanTests.test_native_voltage_screen_and_csv_have_no_display_multiplier) ... ok
+test_real_scan_orchestrator_single9and25_save_history (test_scan.ScanTests.test_real_scan_orchestrator_single9and25_save_history) ... ok
+test_rst_saves_partial_never_complete_history_or_auto_home (test_scan.ScanTests.test_rst_saves_partial_never_complete_history_or_auto_home) ... ok
+test_aln_remains_rejected_even_with_structure2 (test_structure_hemt.Tests.test_aln_remains_rejected_even_with_structure2) ... ok
+test_factory_hemt_model_but_original_material_motion (test_structure_hemt.Tests.test_factory_hemt_model_but_original_material_motion) ... ok
+test_model_structure2_equivalent_to_existing_hemt_single_model (test_structure_hemt.Tests.test_model_structure2_equivalent_to_existing_hemt_single_model) ... ok
+test_multpoint_metadata_routes_hemt_pages_without_changing_material (test_structure_hemt.Tests.test_multpoint_metadata_routes_hemt_pages_without_changing_material) ... ok
+test_old_material1_not_hemt_selector_in_new_frame (test_structure_hemt.Tests.test_old_material1_not_hemt_selector_in_new_frame) ... ok
+test_structure2_keeps_material_and_routes_hemt (test_structure_hemt.Tests.test_structure2_keeps_material_and_routes_hemt) ... ok
+test_actual_core_uses_native_pl_snapshot_and_model (test_system.SystemTests.test_actual_core_uses_native_pl_snapshot_and_model) ... ok
+test_all_enabled_masks (test_system.SystemTests.test_all_enabled_masks) ... ok
+test_busy_configuration_rejected (test_system.SystemTests.test_busy_configuration_rejected) ... ok
+test_deployment_manifest_matches_new_core_and_pair (test_system.SystemTests.test_deployment_manifest_matches_new_core_and_pair) ... ok
+test_factory_materials_and_modes_native (test_system.SystemTests.test_factory_materials_and_modes_native) ... ok
+test_full_once_per_polarity (test_system.SystemTests.test_full_once_per_polarity) ... ok
+test_manual100ma_requires_explicit_authorization (test_system.SystemTests.test_manual100ma_requires_explicit_authorization) ... ok
+test_native_conversion_no_gain_interface (test_system.SystemTests.test_native_conversion_no_gain_interface) ... ok
+test_native_fixed_point_coefficients (test_system.SystemTests.test_native_fixed_point_coefficients) ... ok
+test_native_register_limits (test_system.SystemTests.test_native_register_limits) ... ok
+test_notebook_configuration_and_actual_service_setup (test_system.SystemTests.test_notebook_configuration_and_actual_service_setup) ... ok
+test_old_bit_driver_rejected (test_system.SystemTests.test_old_bit_driver_rejected) ... ok
+test_open_loop_and_large_emf (test_system.SystemTests.test_open_loop_and_large_emf) ... ok
+test_ownership_and_invalid_parameters (test_system.SystemTests.test_ownership_and_invalid_parameters) ... ok
+test_ps_fallback_acquires_exactly_two_directions (test_system.SystemTests.test_ps_fallback_acquires_exactly_two_directions) ... ok
+test_safety_gates_before_motion (test_system.SystemTests.test_safety_gates_before_motion) ... ok
+test_verify_and_forced (test_system.SystemTests.test_verify_and_forced) ... ok
+
+----------------------------------------------------------------------
+Ran 115 tests in 0.451s
+
+OK
+point C attempt 1/3 failed: DirectMeasurementError: stop here: past the guard
+point C attempt 2/3 failed: DirectMeasurementError: stop here: past the guard
+point C attempt 3/3 failed: DirectMeasurementError: stop here: past the guard
+ADC19 / PS24 / HMI11 / FP_DSP5; native voltage; one F/R pair
+
+COMMAND ['C:\\Users\\wxs\\.dsh\\dsh-runtimes\\dsh-primary-runtime\\dependencies\\python\\python.exe', '-B', '-m', 'unittest', 'discover', '-s', 'C:\\Users\\wxs\\Desktop\\four_probe_measure_o\\src\\project\\tests', '-p', 'test_*.py', '-v']
+test_frame_range_and_code_range_are_checked (test_adc_conversion.AdcConversionTests.test_frame_range_and_code_range_are_checked) ... ok
+test_offset_binary_midscale_is_zero (test_adc_conversion.AdcConversionTests.test_offset_binary_midscale_is_zero) ... ok
+test_offset_binary_rail_is_reported_as_saturated (test_adc_conversion.AdcConversionTests.test_offset_binary_rail_is_reported_as_saturated) ... ok
+test_twos_complement_conversion (test_adc_conversion.AdcConversionTests.test_twos_complement_conversion) ... ok
+test_codes_outside_bounds_are_rejected (test_adc_voltage_map.AdcVoltageMapTests.test_codes_outside_bounds_are_rejected) ... ok
+test_q8_24_helpers_match_pl_product_words (test_adc_voltage_map.AdcVoltageMapTests.test_q8_24_helpers_match_pl_product_words) ... ok
+test_raw_frame_extracts_upper_16_bits (test_adc_voltage_map.AdcVoltageMapTests.test_raw_frame_extracts_upper_16_bits) ... ok
+test_reverse_code_bounds_match_50_to_5000_mv (test_adc_voltage_map.AdcVoltageMapTests.test_reverse_code_bounds_match_50_to_5000_mv) ... ok
+test_two_complement_codes (test_adc_voltage_map.AdcVoltageMapTests.test_two_complement_codes) ... ok
+test_window_average (test_adc_voltage_map.AdcVoltageMapTests.test_window_average) ... ok
+test_activity_reports_moving_low16 (test_ads8681_frame_diagnostics.FrameDiagnosticsTests.test_activity_reports_moving_low16) ... ok
+test_candidate_stats_include_all_candidates (test_ads8681_frame_diagnostics.FrameDiagnosticsTests.test_candidate_stats_include_all_candidates) ... ok
+test_classify_full_scale_distinguishes_5v_from_12v (test_ads8681_frame_diagnostics.FrameDiagnosticsTests.test_classify_full_scale_distinguishes_5v_from_12v) ... ok
+test_code_decoding_modes (test_ads8681_frame_diagnostics.FrameDiagnosticsTests.test_code_decoding_modes) ... ok
+test_extract_known_fields (test_ads8681_frame_diagnostics.FrameDiagnosticsTests.test_extract_known_fields) ... ok
+test_frozen_frame_is_diagnosed (test_ads8681_frame_diagnostics.FrameDiagnosticsTests.test_frozen_frame_is_diagnosed) ... ok
+test_monitor_captures_full_raw_frames (test_ads8681_frame_diagnostics.FrameDiagnosticsTests.test_monitor_captures_full_raw_frames) ... ok
+test_rank_candidates_selects_low16_offset_binary (test_ads8681_frame_diagnostics.FrameDiagnosticsTests.test_rank_candidates_selects_low16_offset_binary) ... ok
+test_rank_candidates_selects_low16_twos_complement (test_ads8681_frame_diagnostics.FrameDiagnosticsTests.test_rank_candidates_selects_low16_twos_complement) ... ok
+test_configure_encodes_safe_command (test_analog_frontend.AnalogFrontendTests.test_configure_encodes_safe_command) ... ok
+test_dac_voltage_conversion (test_analog_frontend.AnalogFrontendTests.test_dac_voltage_conversion) ... ok
+test_direct_test_accepts_one_range_and_two_polarity_relays (test_analog_frontend.AnalogFrontendTests.test_direct_test_accepts_one_range_and_two_polarity_relays) ... ok
+test_direct_test_rejects_multiple_range_relays (test_analog_frontend.AnalogFrontendTests.test_direct_test_rejects_multiple_range_relays) ... ok
+test_expected_nominal_currents (test_analog_frontend.AnalogFrontendTests.test_expected_nominal_currents) ... ok
+test_range_validation (test_analog_frontend.AnalogFrontendTests.test_range_validation) ... ok
+test_reconfigure_adc_waits_for_sequence (test_analog_frontend.AnalogFrontendTests.test_reconfigure_adc_waits_for_sequence) ... ok
+test_safe_off_uses_abort_path (test_analog_frontend.AnalogFrontendTests.test_safe_off_uses_abort_path) ... ok
+test_set_dac_voltage_writes_expected_frame_code (test_analog_frontend.AnalogFrontendTests.test_set_dac_voltage_writes_expected_frame_code) ... ok
+test_last_valid_point_refreshes_without_complete_or_scan_return (test_early_page0.Tests.test_last_valid_point_refreshes_without_complete_or_scan_return) ... ok
+test_not_last_and_invalid_last_do_not_refresh_report (test_early_page0.Tests.test_not_last_and_invalid_last_do_not_refresh_report) ... ok
+test_median_is_robust_to_single_outlier (test_filtering_quality.FilteringAndQualityTests.test_median_is_robust_to_single_outlier) ... ok
+test_quality_fails_for_invalid_ratio_noise_and_saturation (test_filtering_quality.FilteringAndQualityTests.test_quality_fails_for_invalid_ratio_noise_and_saturation) ... ok
+test_quality_passes_when_samples_are_stable (test_filtering_quality.FilteringAndQualityTests.test_quality_passes_when_samples_are_stable) ... ok
+test_saturation_flag_length_must_match_samples (test_filtering_quality.FilteringAndQualityTests.test_saturation_flag_length_must_match_samples) ... ok
+test_summary_rejects_zero_and_out_of_range_samples (test_filtering_quality.FilteringAndQualityTests.test_summary_rejects_zero_and_out_of_range_samples) ... ok
+test_100ma_locked (test_hmi_frame42.Tests.test_100ma_locked) ... ok
+test_all_modes (test_hmi_frame42.Tests.test_all_modes) ... ok
+test_aln_no_motion_saved (test_hmi_frame42.Tests.test_aln_no_motion_saved) ... ok
+test_back_to_back (test_hmi_frame42.Tests.test_back_to_back) ... ok
+test_crc_marker_corruption_rejected (test_hmi_frame42.Tests.test_crc_marker_corruption_rejected) ... ok
+test_every_split (test_hmi_frame42.Tests.test_every_split) ... ok
+test_factory_structure_callback (test_hmi_frame42.Tests.test_factory_structure_callback) ... ok
+test_gan_parse (test_hmi_frame42.Tests.test_gan_parse) ... ok
+test_history_metadata_roundtrip (test_hmi_frame42.Tests.test_history_metadata_roundtrip) ... ok
+test_invalid (test_hmi_frame42.Tests.test_invalid) ... ok
+test_legacy (test_hmi_frame42.Tests.test_legacy) ... ok
+test_length_and_split (test_hmi_frame42.Tests.test_length_and_split) ... ok
+test_manual_100ma_requires_both_gates (test_hmi_frame42.Tests.test_manual_100ma_requires_both_gates) ... ok
+test_manual_factory (test_hmi_frame42.Tests.test_manual_factory) ... ok
+test_mixed_frames (test_hmi_frame42.Tests.test_mixed_frames) ... ok
+test_rst (test_hmi_frame42.Tests.test_rst) ... ok
+test_structure_model (test_hmi_frame42.Tests.test_structure_model) ... ok
+test_abort (test_hmi_range04.Tests.test_abort) ... ok
+test_actual_switches_only (test_hmi_range04.Tests.test_actual_switches_only) ... [RANGE04] 实际量程配置完成 R0 -> p[4].p0.pic=68
+[RANGE04] 实际量程配置完成 R1 -> p[4].p1.pic=69
+[RANGE04] 实际量程配置完成 R2 -> p[4].p2.pic=70
+ok
+test_all_four_maps (test_hmi_range04.Tests.test_all_four_maps) ... [RANGE04] 选档完成 R0；第5页仅此档亮起（不是整场测量完成）
+[RANGE04] 选档完成 R1；第5页仅此档亮起（不是整场测量完成）
+[RANGE04] 选档完成 R2；第5页仅此档亮起（不是整场测量完成）
+[RANGE04] 选档完成 R3；第5页仅此档亮起（不是整场测量完成）
+ok
+test_base_navigation_suppressed (test_hmi_range04.Tests.test_base_navigation_suppressed) ... [RANGE04] 选档完成 R1；第5页仅此档亮起（不是整场测量完成）
+ok
+test_begin (test_hmi_range04.Tests.test_begin) ... ok
+test_clear_old_done_before_page4 (test_hmi_range04.Tests.test_clear_old_done_before_page4) ... ok
+test_current_off_ignored (test_hmi_range04.Tests.test_current_off_ignored) ... ok
+test_failed_hardware (test_hmi_range04.Tests.test_failed_hardware) ... ok
+test_final_config_stays_page5 (test_hmi_range04.Tests.test_final_config_stays_page5) ... [RANGE04] 实际量程配置完成 R2 -> p[4].p2.pic=70
+[RANGE04] 选档完成 R1；第5页仅此档亮起（不是整场测量完成）
+ok
+test_no_late_page_local_corruption (test_hmi_range04.Tests.test_no_late_page_local_corruption) ... [RANGE04] 选档完成 R1；第5页仅此档亮起（不是整场测量完成）
+ok
+test_pl_abort_precedes_lights (test_hmi_range04.Tests.test_pl_abort_precedes_lights) ... ok
+test_pl_sample_label_events (test_hmi_range04.Tests.test_pl_sample_label_events) ... [RANGE04] 实际量程配置完成 R0 -> p[4].p0.pic=68
+[RANGE04] 实际量程配置完成 R1 -> p[4].p1.pic=69
+[RANGE04] 实际量程配置完成 R2 -> p[4].p2.pic=70
+ok
+test_polarity_no_duplicate (test_hmi_range04.Tests.test_polarity_no_duplicate) ... [RANGE04] 实际量程配置完成 R1 -> p[4].p1.pic=69
+ok
+test_r3_never_touches_hardware (test_hmi_range04.Tests.test_r3_never_touches_hardware) ... ok
+test_range_validation (test_hmi_range04.Tests.test_range_validation) ... ok
+test_real_configuration_params_unchanged (test_hmi_range04.Tests.test_real_configuration_params_unchanged) ... [RANGE04] 实际量程配置完成 R2 -> p[4].p2.pic=70
+ok
+test_selected (test_hmi_range04.Tests.test_selected) ... [RANGE04] 实际量程配置完成 R2 -> p[4].p2.pic=70
+[RANGE04] 选档完成 R1；第5页仅此档亮起（不是整场测量完成）
+ok
+test_abort_check_prevents_further_uart (test_hmi_real_heatmap.HeatTests.test_abort_check_prevents_further_uart) ... ok
+test_complete_layout_and_limits (test_hmi_real_heatmap.HeatTests.test_complete_layout_and_limits) ... ok
+test_missing_invalid_zero_uniform_and_rounding (test_hmi_real_heatmap.HeatTests.test_missing_invalid_zero_uniform_and_rounding) ... ok
+test_recolors_when_minmax_changes_and_skips_duplicate (test_hmi_real_heatmap.HeatTests.test_recolors_when_minmax_changes_and_skips_duplicate) ... ok
+test_actual_core_z_r_home_and_rx_preserved (test_hmi_recovery.RecoveryTests.test_actual_core_z_r_home_and_rx_preserved) ... ok
+test_bad_rx_route_or_fatal_error_refuses (test_hmi_recovery.RecoveryTests.test_bad_rx_route_or_fatal_error_refuses) ... ok
+test_constructor_pure_and_measurement_apis_disabled (test_hmi_recovery.RecoveryTests.test_constructor_pure_and_measurement_apis_disabled) ... ok
+test_failed_r_home_re_latches_without_x_or_retries (test_hmi_recovery.RecoveryTests.test_failed_r_home_re_latches_without_x_or_retries) ... ok
+test_keyboard_interrupt_during_home_holds_fault (test_hmi_recovery.RecoveryTests.test_keyboard_interrupt_during_home_holds_fault) ... ok
+test_new_rst_during_homing_is_not_cleared (test_hmi_recovery.RecoveryTests.test_new_rst_during_homing_is_not_cleared) ... ok
+test_new_rst_while_stopping_old_workers_prevents_clear (test_hmi_recovery.RecoveryTests.test_new_rst_while_stopping_old_workers_prevents_clear) ... ok
+test_old_matching_system_pl_owner_released_even_if_global_is_none (test_hmi_recovery.RecoveryTests.test_old_matching_system_pl_owner_released_even_if_global_is_none) ... ok
+test_old_rx_stopped_by_failed_cell_is_restarted (test_hmi_recovery.RecoveryTests.test_old_rx_stopped_by_failed_cell_is_restarted) ... ok
+test_partial_rst_refuses_clear_without_discarding_parser (test_hmi_recovery.RecoveryTests.test_partial_rst_refuses_clear_without_discarding_parser) ... ok
+test_rx_loss_during_home_aborts_and_latches (test_hmi_recovery.RecoveryTests.test_rx_loss_during_home_aborts_and_latches) ... ok
+test_stopping_rx_or_changed_route_is_not_treated_healthy (test_hmi_recovery.RecoveryTests.test_stopping_rx_or_changed_route_is_not_treated_healthy) ... ok
+test_stuck_heartbeat_refuses_clear_keeps_rx (test_hmi_recovery.RecoveryTests.test_stuck_heartbeat_refuses_clear_keeps_rx) ... ok
+test_tx_owned_or_fp_dsp_stuck_refuses_clear (test_hmi_recovery.RecoveryTests.test_tx_owned_or_fp_dsp_stuck_refuses_clear) ... ok
+test_unconfirmed_or_busy_or_current_on_never_clear (test_hmi_recovery.RecoveryTests.test_unconfirmed_or_busy_or_current_on_never_clear) ... ok
+test_wrong_overlay_is_read_only_refusal (test_hmi_recovery.RecoveryTests.test_wrong_overlay_is_read_only_refusal) ... ok
+test_recovery_notebook_does_not_use_measurement_factory (test_hmi_recovery.Regression.test_recovery_notebook_does_not_use_measurement_factory) ... ok
+test_bulk_profile_requires_spacing_and_geometry (test_materials.MaterialProfileTests.test_bulk_profile_requires_spacing_and_geometry) ... ok
+test_registry_can_replace_explicitly (test_materials.MaterialProfileTests.test_registry_can_replace_explicitly) ... ok
+test_registry_rejects_duplicate_ids_and_round_trips (test_materials.MaterialProfileTests.test_registry_rejects_duplicate_ids_and_round_trips) ... ok
+test_thin_film_profile_requires_thickness (test_materials.MaterialProfileTests.test_thin_film_profile_requires_thickness) ... ok
+test_bulk_resistivity_uses_si_units (test_measurement_model.MeasurementModelTests.test_bulk_resistivity_uses_si_units) ... ok
+test_custom_calibration_is_applied_after_geometry_calculation (test_measurement_model.MeasurementModelTests.test_custom_calibration_is_applied_after_geometry_calculation) ... ok
+test_frame_measurement_keeps_raw_code_and_saturation_warning (test_measurement_model.MeasurementModelTests.test_frame_measurement_keeps_raw_code_and_saturation_warning) ... ok
+test_invalid_voltage_and_current_do_not_produce_results (test_measurement_model.MeasurementModelTests.test_invalid_voltage_and_current_do_not_produce_results) ... ok
+test_resistivity_range_is_a_warning_not_a_silent_clamp (test_measurement_model.MeasurementModelTests.test_resistivity_range_is_a_warning_not_a_silent_clamp) ... ok
+test_thin_film_resistivity_is_sheet_resistance_times_thickness (test_measurement_model.MeasurementModelTests.test_thin_film_resistivity_is_sheet_resistance_times_thickness) ... ok
+test_silicon_end_to_end (test_multi_material_model.CalculateFourProbeTests.test_silicon_end_to_end) ... ok
+test_small_disk_keeps_legacy_table (test_multi_material_model.CalculateFourProbeTests.test_small_disk_keeps_legacy_table) ... ok
+test_thin_film_uses_closed_form_fd_and_unit_fw (test_multi_material_model.CalculateFourProbeTests.test_thin_film_uses_closed_form_fd_and_unit_fw) ... ok
+test_closed_form_reproduces_table_circle_column (test_multi_material_model.DiameterFactorTests.test_closed_form_reproduces_table_circle_column) ... ok
+test_project_wafer_value_and_infinite_limit (test_multi_material_model.DiameterFactorTests.test_project_wafer_value_and_infinite_limit) ... ok
+test_requires_probes_inside_disk (test_multi_material_model.DiameterFactorTests.test_requires_probes_inside_disk) ... ok
+test_invalid_alpha (test_multi_material_model.ThicknessFactorTests.test_invalid_alpha) ... ok
+test_limits_and_no_clamp (test_multi_material_model.ThicknessFactorTests.test_limits_and_no_clamp) ... ok
+test_matches_exact_slab_reference (test_multi_material_model.ThicknessFactorTests.test_matches_exact_slab_reference) ... ok
+test_monotonic_decreasing (test_multi_material_model.ThicknessFactorTests.test_monotonic_decreasing) ... ok
+test_project_wafer_value (test_multi_material_model.ThicknessFactorTests.test_project_wafer_value) ... ok
+test_hemt_run_without_current_is_stopped (test_open_current_loop.DiagnosisTests.test_hemt_run_without_current_is_stopped) ... ok
+test_no_verdict_without_a_current_span (test_open_current_loop.DiagnosisTests.test_no_verdict_without_a_current_span) ... ok
+test_normal_silicon_scans_pass (test_open_current_loop.DiagnosisTests.test_normal_silicon_scans_pass) ... ok
+test_old_open_loop_history_is_stopped (test_open_current_loop.DiagnosisTests.test_old_open_loop_history_is_stopped) ... ok
+test_ranges_without_samples_or_nan_are_ignored (test_open_current_loop.DiagnosisTests.test_ranges_without_samples_or_nan_are_ignored) ... ok
+test_voltage_that_follows_current_is_not_flagged (test_open_current_loop.DiagnosisTests.test_voltage_that_follows_current_is_not_flagged) ... ok
+test_first_point_stops_without_retry_or_measurement (test_open_current_loop.ScanIntegrationTests.test_first_point_stops_without_retry_or_measurement) ... ok
+test_normal_pilot_still_measures (test_open_current_loop.ScanIntegrationTests.test_normal_pilot_still_measures) ... ok
+test_stop_is_not_a_reset (test_open_current_loop.ScanIntegrationTests.test_stop_is_not_a_reset) ... ok
+test_blocked_writer_timeout_retains_handle_and_refuses_restart (test_safety.HeartbeatSafetyTests.test_blocked_writer_timeout_retains_handle_and_refuses_restart) ... ok
+test_cleanup_timeout_does_not_read_mmio_or_disarm_watchdog (test_safety.HeartbeatSafetyTests.test_cleanup_timeout_does_not_read_mmio_or_disarm_watchdog) ... ok
+test_actual_notebook_download_only_after_successful_stop (test_safety.OverlaySafetyTests.test_actual_notebook_download_only_after_successful_stop) ... ok
+test_actual_notebook_refuses_download_with_old_rx_alive (test_safety.OverlaySafetyTests.test_actual_notebook_refuses_download_with_old_rx_alive) ... ok
+test_rst_during_thread_stop_is_rechecked_before_download (test_safety.OverlaySafetyTests.test_rst_during_thread_stop_is_rechecked_before_download) ... ok
+test_binary_rst_prefix_is_not_a_stop_and_following_rst_is (test_safety.WireSafetyTests.test_binary_rst_prefix_is_not_a_stop_and_following_rst_is) ... ok
+test_every_truncated_start_preserves_following_rst (test_safety.WireSafetyTests.test_every_truncated_start_preserves_following_rst) ... ok
+test_expired_config_cannot_consume_a_fresh_start (test_safety.WireSafetyTests.test_expired_config_cannot_consume_a_fresh_start) ... ok
+test_idle_rx_poll_delivers_rst_held_behind_partial_start (test_safety.WireSafetyTests.test_idle_rx_poll_delivers_rst_held_behind_partial_start) ... ok
+test_invalid_history_header_cannot_hide_rst (test_safety.WireSafetyTests.test_invalid_history_header_cannot_hide_rst) ... ok
+test_partial_rst_survives_idle_timeout_and_parser_reset_keeps_latch (test_safety.WireSafetyTests.test_partial_rst_survives_idle_timeout_and_parser_reset_keeps_latch) ... ok
+test_valid_frames_all_splits_and_history_are_unchanged (test_safety.WireSafetyTests.test_valid_frames_all_splits_and_history_are_unchanged) ... ok
+test_native_voltage_screen_and_csv_have_no_display_multiplier (test_scan.ScanTests.test_native_voltage_screen_and_csv_have_no_display_multiplier) ... ok
+test_real_scan_orchestrator_single9and25_save_history (test_scan.ScanTests.test_real_scan_orchestrator_single9and25_save_history) ... ok
+test_rst_saves_partial_never_complete_history_or_auto_home (test_scan.ScanTests.test_rst_saves_partial_never_complete_history_or_auto_home) ... ok
+test_aln_remains_rejected_even_with_structure2 (test_structure_hemt.Tests.test_aln_remains_rejected_even_with_structure2) ... ok
+test_factory_hemt_model_but_original_material_motion (test_structure_hemt.Tests.test_factory_hemt_model_but_original_material_motion) ... ok
+test_model_structure2_equivalent_to_existing_hemt_single_model (test_structure_hemt.Tests.test_model_structure2_equivalent_to_existing_hemt_single_model) ... ok
+test_multpoint_metadata_routes_hemt_pages_without_changing_material (test_structure_hemt.Tests.test_multpoint_metadata_routes_hemt_pages_without_changing_material) ... ok
+test_old_material1_not_hemt_selector_in_new_frame (test_structure_hemt.Tests.test_old_material1_not_hemt_selector_in_new_frame) ... ok
+test_structure2_keeps_material_and_routes_hemt (test_structure_hemt.Tests.test_structure2_keeps_material_and_routes_hemt) ... ok
+test_actual_core_uses_native_pl_snapshot_and_model (test_system.SystemTests.test_actual_core_uses_native_pl_snapshot_and_model) ... ok
+test_all_enabled_masks (test_system.SystemTests.test_all_enabled_masks) ... ok
+test_busy_configuration_rejected (test_system.SystemTests.test_busy_configuration_rejected) ... ok
+test_deployment_manifest_matches_new_core_and_pair (test_system.SystemTests.test_deployment_manifest_matches_new_core_and_pair) ... ok
+test_factory_materials_and_modes_native (test_system.SystemTests.test_factory_materials_and_modes_native) ... ok
+test_full_once_per_polarity (test_system.SystemTests.test_full_once_per_polarity) ... ok
+test_manual100ma_requires_explicit_authorization (test_system.SystemTests.test_manual100ma_requires_explicit_authorization) ... ok
+test_native_conversion_no_gain_interface (test_system.SystemTests.test_native_conversion_no_gain_interface) ... ok
+test_native_fixed_point_coefficients (test_system.SystemTests.test_native_fixed_point_coefficients) ... ok
+test_native_register_limits (test_system.SystemTests.test_native_register_limits) ... ok
+test_notebook_configuration_and_actual_service_setup (test_system.SystemTests.test_notebook_configuration_and_actual_service_setup) ... ok
+test_old_bit_driver_rejected (test_system.SystemTests.test_old_bit_driver_rejected) ... ok
+test_open_loop_and_large_emf (test_system.SystemTests.test_open_loop_and_large_emf) ... ok
+test_ownership_and_invalid_parameters (test_system.SystemTests.test_ownership_and_invalid_parameters) ... ok
+test_ps_fallback_acquires_exactly_two_directions (test_system.SystemTests.test_ps_fallback_acquires_exactly_two_directions) ... ok
+test_safety_gates_before_motion (test_system.SystemTests.test_safety_gates_before_motion) ... ok
+test_verify_and_forced (test_system.SystemTests.test_verify_and_forced) ... ok
+
+----------------------------------------------------------------------
+Ran 158 tests in 0.444s
+
+OK
+point C attempt 1/3 failed: DirectMeasurementError: stop here: past the guard
+point C attempt 2/3 failed: DirectMeasurementError: stop here: past the guard
+point C attempt 3/3 failed: DirectMeasurementError: stop here: past the guard
+ADC19 / PS24 / HMI11 / FP_DSP5; native voltage; one F/R pair
+

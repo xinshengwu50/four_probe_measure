@@ -1,0 +1,93 @@
+// 仅将下拉选项写入变量，不发送START、不在按下时切页。
+if(修改参数.cb0.txt=="铝镓氮（AlGaN）")
+{
+  修改参数.x4.val=2
+}else if(修改参数.cb0.txt=="单晶硅（Si）")
+{
+  修改参数.x4.val=3
+}else if(修改参数.cb0.txt=="碳化硅（SiC）")
+{
+  修改参数.x4.val=5
+}else if(修改参数.cb0.txt=="氮化镓（GaN）"||修改参数.cb0.txt=="GaN")
+{
+  修改参数.x4.val=4
+}else if(修改参数.cb0.txt=="氧化锌（ZnO）")
+{
+  修改参数.x4.val=6
+}else if(修改参数.cb0.txt=="添加+")
+{
+  修改参数.x4.val=7
+}else
+{
+  修改参数.x4.val=255
+}
+if(修改参数.cb1.txt=="自定义单点测量")
+{
+  修改参数.x5.val=1
+}else if(修改参数.cb1.txt=="9点测量")
+{
+  修改参数.x5.val=3
+}else if(修改参数.cb1.txt=="25点测量")
+{
+  修改参数.x5.val=2
+}else if(修改参数.cb1.txt=="49点测量")
+{
+  修改参数.x5.val=4
+}else if(修改参数.cb1.txt=="81点测量")
+{
+  修改参数.x5.val=5
+}else if(修改参数.cb1.txt=="121点测量")
+{
+  修改参数.x5.val=6
+}else if(修改参数.cb1.txt=="自定义二维平面扫描")
+{
+  修改参数.x5.val=7
+}else
+{
+  修改参数.x5.val=255
+}
+if(修改参数.cb2.txt=="P")
+{
+  修改参数.x0.val=0
+}else if(修改参数.cb2.txt=="N")
+{
+  修改参数.x0.val=1
+}else
+{
+  修改参数.x0.val=255
+}
+if(修改参数.cb3.txt=="四档量程自动选择")
+{
+  修改参数.x3.val=0
+}else if(修改参数.cb3.txt=="0.1mA")
+{
+  修改参数.x3.val=1
+}else if(修改参数.cb3.txt=="1mA")
+{
+  修改参数.x3.val=2
+}else if(修改参数.cb3.txt=="10mA")
+{
+  修改参数.x3.val=3
+}else if(修改参数.cb3.txt=="100mA")
+{
+  修改参数.x3.val=4
+}else if(修改参数.cb3.txt=="更换其他档位")
+{
+  修改参数.x3.val=5
+}else
+{
+  修改参数.x3.val=255
+}
+if(修改参数.cb4.txt=="外延片")
+{
+  修改参数.x7.val=0
+}else if(修改参数.cb4.txt=="衬底片")
+{
+  修改参数.x7.val=1
+}else if(修改参数.cb4.txt=="HEMT")
+{
+  修改参数.x7.val=2
+}else
+{
+  修改参数.x7.val=255
+}

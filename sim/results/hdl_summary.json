@@ -1,0 +1,26 @@
+{
+  "fp_dsp": {
+    "passed": true,
+    "artifact": "build\\sim_cli\\20261102_185041\\fp_dsp"
+  },
+  "analog": {
+    "passed": true,
+    "artifact": "build\\sim_cli\\20261102_185041\\analog"
+  },
+  "axi": {
+    "passed": true,
+    "artifact": "build\\sim_cli\\20261102_185041\\axi"
+  },
+  "z_safety": {
+    "passed": true,
+    "artifact": "build\\sim_cli\\20261102_185041\\z_safety"
+  },
+  "stats_bank": {
+    "passed": true,
+    "artifact": "build\\sim_cli\\20261102_185041\\stats_bank"
+  },
+  "reset_watchdog": {
+    "passed": true,
+    "artifact": "build\\sim_cli\\20261102_185041\\reset_watchdog"
+  }
+}

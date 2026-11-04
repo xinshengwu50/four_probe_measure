@@ -1,0 +1,56 @@
+sys1=0
+if(修改参数.x4.val!=2&&修改参数.x4.val!=3&&修改参数.x4.val!=4)
+{
+  sys1=1
+}
+if(修改参数.x5.val<1||修改参数.x5.val>3)
+{
+  sys1=2
+}
+if(修改参数.x3.val<0||修改参数.x3.val>4)
+{
+  sys1=3
+}
+if(修改参数.x7.val<0||修改参数.x7.val>2)
+{
+  sys1=4
+}
+if(修改参数.x0.val<0||修改参数.x0.val>1)
+{
+  sys1=5
+}
+if(修改参数.x1.val<=0||修改参数.x2.val<=0)
+{
+  sys1=6
+}
+if(修改参数.x5.val==1)
+{
+  if(修改参数.x6.val<1||修改参数.x6.val>25)
+  {
+    sys1=7
+  }
+}
+if(sys1==0)
+{
+  wepo 修改参数.x0.val,584
+  wepo 修改参数.x1.val,588
+  wepo 修改参数.x2.val,592
+  wepo 修改参数.x4.val,1000
+  wepo 修改参数.x5.val,1004
+  wepo 修改参数.x6.val,1008
+  wepo 修改参数.x7.val,1012
+  wepo 修改参数.x3.val,1016
+}else
+{
+  if(sys1==7)
+  {
+    keybdB.loadpageid.val=3
+    keybdB.loadcmpid.val=14
+    page keybdB
+  }else
+  {
+    prints "PARAM_REJECT code=",0
+    prints sys1,0
+    printh 0D 0A
+  }
+}
